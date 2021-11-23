@@ -1,0 +1,23 @@
+@import './../config', './../responsive';
+
+.Form {
+  overflow: hidden;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  height: 5rem;
+  background: linear-gradient(
+    to bottom,
+    rgba($secondary-color, 1),
+    rgba($primary-color, 1)
+  );
+
+  .form-control {
+    display: block;
+  }
+
+  font-size: 2rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0;
+  font-weight: 300;
+}

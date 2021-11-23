@@ -1,0 +1,23 @@
+@import "./../config", "./../responsive";
+
+.FormTextInput {
+  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px $text-color-primary;
+  color: $text-color-secondary;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  min-width: 120px;
+  width: 63%;
+}
+
+::placeholder {
+  color: $text-color-disabled;
+}
+
+.FormTextInput:valid {
+  border-bottom: solid 2px #88ffcc;
+  color: $text-color-secondary;
+  @include transition-ease;
+}
