@@ -1,0 +1,23 @@
+@import './../config', './../responsive';
+
+.FormButton {
+  border: 0;
+  color: $tertiary-color;
+  background: $text-color-primary;
+  font-size: 0.9rem;
+  margin: 0 0 0 1rem;
+  font-weight: 700;
+  padding: 0.33rem 0.5rem;
+  border: solid 2px $tertiary-color;
+  border-radius: 0.225rem;
+  min-width: 100px;
+  width: 5rem;
+}
+
+.FormButton:hover {
+  background: $text-color-secondary;
+  border-color: #000;
+  color: #000;
+  cursor: pointer;
+  @include transition-ease;
+}
