@@ -1,4 +1,4 @@
-import './Title.scss';
+import "./Title.scss";
 
 const Title = ({ brand, appType }) => {
   return (
@@ -14,11 +14,6 @@ const Title = ({ brand, appType }) => {
 Title.defaultProps = {
   brand: ".⁂.",
   appType: "TODOs",
-};
-
-Title.propTypes = {
-  brand: String,
-  appType: String,
 };
 
 export default Title;
