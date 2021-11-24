@@ -24,10 +24,4 @@ TextInput.defaultProps = {
   maxLength: "280",
 };
 
-TextInput.propTypes = {
-  placeholder: String,
-  minLength: Number,
-  maxLength: Number,
-};
-
 export default TextInput;
